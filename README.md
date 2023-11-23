@@ -1,25 +1,33 @@
-# LOW-LIGHT-ENHANCEMENT
-low-light image enhancement does not require any normal-light image in training, thereby freeing from the chains of paired or unpaired training data that are time-consuming to obtain. However, existing methods suffer color deviation and fail to generalize to various lighting conditions. method based on Retinex only integrates Retinex theory
-
-#Self-Regularized-Low-Light-Image-Enhancement
+# Pranav Low-Light-Image-Enhancement
+" Low-Light Image Enhancement".
 
 
 
+## Requirements
 
-# Requirements
-python 3.6.12
-torch 1.6.0
-torchvision 0.7.0
-cuda 10.1
-kornia 0.4.1
-# Test
+1. python 3.6.12 
+2. torch 1.6.0
+3. torchvision 0.7.0
+4. cuda 10.1
+5. kornia 0.4.1
+
+## Test
+
+```
 python test.py 
+```
+
 You should specify the test image path and output path.
 
-# Train
-Download the training dataset (SICE) at baidu net disk [password: dsdh]
-CREDIT GOES TO THE AUTHOR FOR DATASET 
+## Train
 
+Download the training dataset (SICE) at <a href="https://pan.baidu.com/s/11dd_9JyxjSWv2UKMCsMZJg">baidu net disk [password: dsdh]</a>
+credit goes to author of dataset
+
+```
 python main.py 
-# Contact
-If you have any questions, please contact PRANAV KUMAR at pranav99@gmail.com  .
+```
+
+## Contact
+
+If you have any questions, please contact PRANAV on pranav99@gmail.com
